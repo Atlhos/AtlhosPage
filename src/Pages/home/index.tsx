@@ -30,6 +30,13 @@ interface projectsProps{
     image:string
 }
 
+interface contactsProps{
+    name:string,
+    href:string,
+    type:string,
+    icon:string
+}
+
 export default function Home(){
 
     const { t,  ready } = useTranslation("home");
@@ -44,6 +51,10 @@ export default function Home(){
 
     const projects: projectsProps[] = t("section-6-projects", { returnObjects: true }) as projectsProps[];
 
+    const footer: string[] = t("footer-span", { returnObjects: true }) as string[];
+
+    const contacts: contactsProps[] = t("footer-contacts", { returnObjects: true }) as contactsProps[];
+
     const plugin = React.useRef(
         Autoplay({ delay: 2500, stopOnInteraction: true })
     )
@@ -51,7 +62,7 @@ export default function Home(){
     return(
         <>  
             <Header/>
-            <main className="m-auto w-full max-w-6xl py-16 px-4 flex flex-col gap-16">
+            <main className="m-auto w-full max-w-6xl py-16 px-4 flex flex-col gap-32">
 
                 <section  className="w-full min-h-96 rounded-md image md:min-h-[546px] relative overflow-hidden" style={{ 
                     backgroundImage: "url('./background1.png')",
@@ -83,7 +94,7 @@ export default function Home(){
                         </p>
 
                         <div className="flex flex-col gap-4 items-stretch md:flex-row">
-                            {services.map((service, index: number) => (
+                            {services && services.length > 0 && services.map((service, index: number) => (
                             <article key={`${service.h3}-${index}`}
                             className="p-4 border-2 rounded-md flex flex-col gap-2 w-full h-full">
                                 <div className="flex flex-col gap-1 text-lg font-semibold justify-between items-start">
@@ -101,7 +112,7 @@ export default function Home(){
                 <section  id="technologies">
                     <h2 className="text-xl font-bold text-black">{t('section-4-h1')}</h2>
                     <div className="flex gap-4 items-center flex-wrap">
-                        {skills.map((skill: string, index: number) => (
+                        {skills && skills.length > 0 && skills.map((skill: string, index: number) => (
                             <article key={index} className="flex gap-4 items-center bg-mainLight py-1 px-4 rounded-lg text-xs text-black md:text-md mt-4">
                                 <p>{skill}</p>
                             </article>
@@ -112,7 +123,7 @@ export default function Home(){
                 <section id="plans">
                     <h2 className="text-xl font-bold text-black">{t('section-5-h1')}</h2>
                     <div className="flex flex-col gap-4 mt-4 justify-between md:flex-row md:gap-1 lg:gap-4">
-                        {plans.map((plan, index: number) => (
+                        {plans && plans.length > 0 && plans.map((plan, index: number) => (
                             <article key={`${plan.name}-${index}`} className="w-full flex flex-col gap-4 border-2 rounded-md p-6 pb-12">
                                 <div className="flex items-center gap-2 justify-between w-full">
                                     <p className="font-bold text-black">{plan.name}</p>
@@ -149,7 +160,7 @@ export default function Home(){
                         onMouseEnter={plugin.current.stop}
                         onMouseLeave={plugin.current.reset}>
                             <CarouselContent>
-                                {projects.map((skill, index: number) => (
+                                {projects && projects.length > 0 && projects.map((skill, index: number) => (
                                     <CarouselItem key={`${skill.name}-${index}`} className="w-full md:basis-1/2 lg:basis-1/3">
                                         <div className="w-full flex flex-col gap-2">
                                             <div className="h-full aspect-video overflow-hidden rounded-sm">
@@ -169,8 +180,36 @@ export default function Home(){
                     </div>
                 </section>
 
-
+                <section className="flex flex-col gap-8 items-center">
+                    <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-black text-center max-w-3xl">{t('section-7-h1')}</h2>
+                    <ButtonOne text={t("section-7-button")}/>
+                </section>
             </main>
+
+            <footer className="bg-mainLight/40 w-full">
+
+                <div className="w-full m-auto flex items-center justify-between max-w-7xl py-24 px-8">
+
+                    <span className="flex flex-col gap-4 w-full items-center text-center">
+                        {footer && footer.length > 0 && footer.map((item: string, index: number) => (
+                            <span key={`${item}-${index}`} className="text-xs text-neutral-800">
+                                {item}
+                            </span>
+                        ))}
+                    </span>
+
+                    <div>
+                        {contacts && contacts.length > 0 && contacts.map((contact, index) => (
+                            <div>
+                                <a>
+                                    dangerouslySetInnerHTML={{ __html: contact.icon }}
+                                </a>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+            </footer>
         </>
     )
 }
