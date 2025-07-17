@@ -100,7 +100,7 @@ export default function Home(){
 
                 <section  id="technologies">
                     <h2 className="text-xl font-bold text-black">{t('section-4-h1')}</h2>
-                    <div className="flex gap-4">
+                    <div className="flex gap-4 items-center flex-wrap">
                         {skills.map((skill: string, index: number) => (
                             <article key={index} className="flex gap-4 items-center bg-mainLight py-1 px-4 rounded-lg text-xs text-black md:text-md mt-4">
                                 <p>{skill}</p>
@@ -111,12 +111,12 @@ export default function Home(){
 
                 <section id="plans">
                     <h2 className="text-xl font-bold text-black">{t('section-5-h1')}</h2>
-                    <div className="flex gap-4 mt-4 justify-between">
+                    <div className="flex flex-col gap-4 mt-4 justify-between md:flex-row md:gap-1 lg:gap-4">
                         {plans.map((plan, index: number) => (
                             <article key={`${plan.name}-${index}`} className="w-full flex flex-col gap-4 border-2 rounded-md p-6 pb-12">
                                 <div className="flex items-center gap-2 justify-between w-full">
                                     <p className="font-bold text-black">{plan.name}</p>
-                                    <span className="bg-main py-1 px-2 rounded-md text-white text-xs">{plan.badge}</span>
+                                    <span className="bg-main py-1 px-2 rounded-md text-white text-xs text-center">{plan.badge}</span>
                                 </div>
                                 
                                 <div className="font-bold text-black flex items-end">
