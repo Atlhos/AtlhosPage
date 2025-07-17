@@ -1,0 +1,98 @@
+{
+    "header-languages": ["PT", "EN", "ES"],
+    "header-navigations": [
+        { "name": "Sobre", "href": "about" },
+        { "name": "Serviços", "href": "services" },
+        { "name": "Tecnologias", "href": "technologies" },
+        { "name": "Planos", "href": "plans" },
+        { "name": "Portfólio", "href": "portfolio" },
+        { "name": "Contatos", "href": "contacts" }
+    ],
+
+    "section-1-h1": "Transformamos suas ideias em software",
+    "section-1-p": "Do conceito ao lançamento, criamos soluções inovadoras sob medida para suas necessidades.",
+    "section-1-button": "Explorar nossos serviços",
+
+    "section-2-h1": "Quem somos",
+    "section-2-p": "A Tech Innovators é uma empresa de desenvolvimento de software dedicada a criar aplicações de alta qualidade e centradas no usuário. Nosso time de desenvolvedores, designers e gerentes de projeto trabalha de forma colaborativa para dar vida à sua visão. Somos apaixonados por tecnologia e comprometidos em entregar resultados excepcionais.",
+
+    "section-3-h1": "Nossos principais serviços",
+    "section-3-p": "Somos especializados em diversos serviços de desenvolvimento de software, adaptados às necessidades únicas do seu negócio.",
+    "section-3-cards": [
+        {
+        "h3": "Desenvolvimento Web",
+        "p": "Criamos sites responsivos e dinâmicos que envolvem os usuários e aumentam as conversões.",
+        "codeIcon": "<svg ...></svg>"
+        },
+        {
+        "h3": "Aplicativos Mobile",
+        "p": "Desenvolvemos apps nativos e multiplataforma para iOS e Android.",
+        "codeIcon": "<svg ...></svg>"
+        },
+        {
+        "h3": "Sistemas Personalizados",
+        "p": "Construímos soluções de software sob medida para otimizar os processos da sua empresa.",
+        "codeIcon": "<svg ...></svg>"
+        }
+    ],
+
+    "section-4-h1": "Tecnologias que dominamos",
+    "section-4-skills": ["HTML", "CSS", "JavaScript", "SASS", "Tailwind CSS", "ReactJS", "NextJS", "NodeJS", "TypeScript", "Figma", "Firebase"],
+
+    "section-5-h1": "Planos",
+    "section-5-plans": [
+        {
+        "name": "Básico",
+        "badge": "Ideal para equipes pequenas",
+        "price": 100.0,
+        "period": "mês",
+        "features": [
+            "Modelos personalizáveis",
+            "Integrações básicas",
+            "Suporte da comunidade"
+        ]
+        },
+        {
+        "name": "Pro",
+        "badge": "Ideal para startups em crescimento",
+        "price": 300.0,
+        "period": "mês",
+        "features": [
+            "Recursos avançados",
+            "Suporte prioritário",
+            "Painel de análises"
+        ]
+        },
+        {
+        "name": "Enterprise",
+        "badge": "Ideal para grandes empresas",
+        "price": 599.0,
+        "period": "mês",
+        "features": [
+            "Gerente de conta dedicado",
+            "Integrações personalizadas",
+            "Soluções escaláveis"
+        ]
+        }
+    ],
+    "section-5-button": "Escolher plano",
+
+    "section-6-h1": "Portfólio",
+    "section-6-projects": [
+        {
+        "name": "SalãoCondo",
+        "description": "O SalãoCondo é um sistema desenvolvido para facilitar o uso e a gestão do salão de festas do condomínio. Os moradores podem reservar datas e gerenciar convidados, enquanto os administradores controlam moradores, pagamentos e têm acesso a um painel com insights e gerenciamento completo das reservas.",
+        "image": "https://lh3.googleusercontent.com/d/10PeYyN0gRltY1FI9mGvaNVCnw68GZro6"
+        },
+        {
+        "name": "Credit Manage",
+        "description": "O Credit Manage é um sistema que desenvolvi para ajudar a gerenciar os gastos com cartão de crédito. Permite cadastrar cartões, autorizar usuários e ajustar automaticamente as parcelas com base na data da compra, no ciclo de fechamento do cartão e na data atual — garantindo um controle financeiro mais preciso.",
+        "image": "https://lh3.googleusercontent.com/d/1Nvvg8y26YQoXhMrZwkV_cz9rv8HsjBf-"
+        },
+        {
+        "name": "New Tech TVS",
+        "description": "O NewTech TVS é uma landing page desenvolvida para um serviço de conserto de televisores. O projeto apresenta links de contato, informações sobre os serviços oferecidos e avaliações de clientes.",
+        "image": "https://lh3.googleusercontent.com/d/10oVZwGlLw2sumFhZmdm0ebSD-pq0CKFs"
+        }
+    ]
+}

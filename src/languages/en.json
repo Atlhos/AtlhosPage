@@ -1,0 +1,98 @@
+{
+    "header-languages": ["PT", "EN", "ES"],
+    "header-navigations": [
+        { "name": "About", "href": "about" },
+        { "name": "Services", "href": "services" },
+        { "name": "Technologies", "href": "technologies" },
+        { "name": "Plans", "href": "plans" },
+        { "name": "Portfolio", "href": "portfolio" },
+        { "name": "Contacts", "href": "contacts" }
+    ],
+
+    "section-1-h1": "We turn your ideas into software",
+    "section-1-p": "From concept to launch, we build innovative solutions tailored to your needs.",
+    "section-1-button": "Explore our services",
+
+    "section-2-h1": "Who we are",
+    "section-2-p": "Tech Innovators is a software development company dedicated to building high-quality, user-centered applications. Our team of experienced developers, designers, and project managers work collaboratively to bring your vision to life. We are passionate about technology and committed to delivering exceptional results.",
+
+    "section-3-h1": "Our Main Services",
+    "section-3-p": "We specialize in a variety of software development services tailored to meet your unique business needs.",
+    "section-3-cards": [
+        {
+        "h3": "Web Development",
+        "p": "Creating responsive and dynamic websites that engage users and drive conversions.",
+        "codeIcon": "<svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 512 512' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'><path d='M160 389a20.91 20.91 0 0 1-13.82-5.2l-128-112a21 21 0 0 1 0-31.6l128-112a21 21 0 0 1 27.66 31.61L63.89 256l109.94 96.19A21 21 0 0 1 160 389zm192 0a21 21 0 0 1-13.84-36.81L448.11 256l-109.94-96.19a21 21 0 0 1 27.66-31.61l128 112a21 21 0 0 1 0 31.6l-128 112A20.89 20.89 0 0 1 352 389zm-144 48a21 21 0 0 1-20.12-27l96-320a21 21 0 1 1 40.23 12l-96 320A21 21 0 0 1 208 437z'></path></svg>"
+        },
+        {
+        "h3": "Mobile Applications",
+        "p": "Developing native and cross-platform mobile apps for iOS and Android.",
+        "codeIcon": "<svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 24 24' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'><g id='Mobile_3'><g><path d='M16.73,2.065H7.27a2.386,2.386,0,0,0-2.24,2.5v14.87a2.386,2.386,0,0,0,2.24,2.5h9.46a2.386,2.386,0,0,0,2.24-2.5V4.565A2.386,2.386,0,0,0,16.73,2.065Zm1.24,17.37a1.391,1.391,0,0,1-1.24,1.5H7.27a1.391,1.391,0,0,1-1.24-1.5V4.565a1.391,1.391,0,0,1,1.24-1.5H8.8v.51a1,1,0,0,0,1,1h4.4a1,1,0,0,0,1-1v-.51h1.53a1.391,1.391,0,0,1,1.24,1.5Z'></path><path d='M10,18.934h4a.5.5,0,0,0,0-1H10a.5.5,0,0,0,0,1Z'></path></g></g></svg>"
+        },
+        {
+        "h3": "Custom Software Systems",
+        "p": "Building tailor-made software solutions to optimize your business processes.",
+        "codeIcon": "<svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 512 512' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'><path fill='none' stroke-linecap='round' stroke-linejoin='round' stroke-width='32' d='...'></path></svg>"
+        }
+    ],
+
+    "section-4-h1": "Technologies we master",
+    "section-4-skills": ["HTML", "CSS", "JavaScript", "SASS", "Tailwind CSS", "ReactJS", "NextJS", "NodeJS", "TypeScript", "Figma", "Firebase"],
+
+    "section-5-h1": "Plans",
+    "section-5-plans": [
+        {
+        "name": "Basic",
+        "badge": "Best for small teams",
+        "price": 100.0,
+        "period": "month",
+        "features": [
+            "Customizable templates",
+            "Basic integrations",
+            "Community support"
+        ]
+        },
+        {
+        "name": "Pro",
+        "badge": "Best for growing startups",
+        "price": 300.0,
+        "period": "month",
+        "features": [
+            "Advanced features",
+            "Priority support",
+            "Analytics dashboard"
+        ]
+        },
+        {
+        "name": "Enterprise",
+        "badge": "Best for large enterprises",
+        "price": 599.0,
+        "period": "month",
+        "features": [
+            "Dedicated account manager",
+            "Custom integrations",
+            "Scalable solutions"
+        ]
+        }
+    ],
+    "section-5-button": "Choose plan",
+
+    "section-6-h1": "Portfolio",
+    "section-6-projects": [
+        {
+        "name": "SalãoCondo",
+        "description": "SalãoCondo is a system designed to simplify the use and management of the condominium’s event hall. Residents can book dates and manage guests, while administrators control residents, payments, and have access to a dashboard with insights and full reservation management.",
+        "image": "https://lh3.googleusercontent.com/d/10PeYyN0gRltY1FI9mGvaNVCnw68GZro6"
+        },
+        {
+        "name": "Credit Manage",
+        "description": "Credit Manage is a system I developed to help manage credit card spending. It allows you to register cards, authorize users, and automatically adjust installments based on purchase date, card billing cycle, and current date — ensuring more accurate financial control.",
+        "image": "https://lh3.googleusercontent.com/d/1Nvvg8y26YQoXhMrZwkV_cz9rv8HsjBf-"
+        },
+        {
+        "name": "New Tech TVS",
+        "description": "NewTech TVS is a landing page developed for a TV repair service. The project presents contact links, information about the services offered, and customer reviews.",
+        "image": "https://lh3.googleusercontent.com/d/10oVZwGlLw2sumFhZmdm0ebSD-pq0CKFs"
+        }
+    ]
+}
