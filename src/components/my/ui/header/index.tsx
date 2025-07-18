@@ -8,7 +8,6 @@ import { LanguageContexts } from "@/contexts/languageContexts";
 import { useTranslation } from "react-i18next";
 import Loading from "../loading";
 
-
 interface hrefProps{
     href:string,
     name:string
@@ -31,72 +30,75 @@ function Header(){
     }
 
     return(
-        <header className=" p-6  border-b-2 border-neutral-100">
-            <div className="w-full m-auto flex items-center justify-between max-w-7xl">
-                <div className="w-full max-w-8 md:max-w-36">
-                    <img src={miniIcon} alt="logo" className="w-full md:hidden"/>
-                    <img src={icon} alt="logo" className="w-full hidden md:block"/>
+        <>
+            <header className="p-6  border-b-2 border-neutral-100 z-50 absolute bg-white left-0 top-0 w-full ">
+                <div className="w-full m-auto flex items-center justify-between max-w-7xl">
+                    <div className="w-full max-w-8 md:max-w-36">
+                        <img src={miniIcon} alt="logo" className="w-full md:hidden"/>
+                        <img src={icon} alt="logo" className="w-full hidden md:block"/>
+                    </div>
+                    <nav className="flex items-center gap-2 sm:gap-4">
+
+                        <div className="w-full max-w-32 lg:hidden">
+                            <Select value="" onValueChange={idNavigate}>
+                                <SelectTrigger className="w-full  border-none shadow-md text-xs cursor-pointer" >
+                                    <SelectValue placeholder="Navegar"/>
+                                </SelectTrigger>
+
+                                <SelectContent>
+                                    {sections.map((section) => (
+                                        <SelectItem className="cursor-pointer"  
+                                        key={section.name} value={section.href}>
+                                            {section.name}
+                                        </SelectItem>
+                                    ))}
+                                </SelectContent>
+                            </Select>
+                        </div>
+
+                        <div className="w-auto hidden lg:flex">
+                            <ul className="flex items-center gap-4 ">
+                                {sections && sections.length > 0 && sections.map((section) => (
+                                    <li key={section.name} className="hover:text-neutral-400 duration-200">
+                                        <a href={`#${section.href}`}>{section.name}</a>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                        
+                        <ButtonOne  className="text-xs md:text-sm" asChild={true}>
+                            <a target="_blank" 
+                            href="https://api.whatsapp.com/send?phone=5511984339692&text=Olá, gostaria de fazer um orçamento">
+                                {t("header-button")}
+                            </a>
+                        </ButtonOne>
+                        
+
+                        <div className="w-full max-w-16">
+                            <Select value="" onValueChange={changeLanguage}>
+                                <SelectTrigger className="w-full bg-neutral-100 border-none shadow-md cursor-pointer">
+                                    <LuGlobe/>
+                                </SelectTrigger>
+
+                                <SelectContent>
+                                    {languages.map((lang, index) => (
+                                        <SelectItem className="cursor-pointer"   
+                                        key={index} value={lang}>
+                                            {lang}
+                                        </SelectItem>
+                                    ))}
+                                </SelectContent>
+                            </Select>
+                        </div>
+
+
+
+                        
+                    </nav>
                 </div>
-                <nav className="flex items-center gap-2 sm:gap-4">
-
-                    <div className="w-full max-w-32 md:hidden">
-                        <Select value="" onValueChange={idNavigate}>
-                            <SelectTrigger className="w-full  border-none shadow-md text-xs cursor-pointer" >
-                                <SelectValue placeholder="Navegar"/>
-                            </SelectTrigger>
-
-                            <SelectContent>
-                                {sections.map((section) => (
-                                    <SelectItem className="cursor-pointer"  
-                                    key={section.name} value={section.href}>
-                                        {section.name}
-                                    </SelectItem>
-                                ))}
-                            </SelectContent>
-                        </Select>
-                    </div>
-
-                    <div className="w-auto hidden md:flex">
-                        <ul className="flex items-center gap-4 ">
-                            {sections && sections.length > 0 && sections.map((section) => (
-                                <li key={section.name} className="hover:text-neutral-400 duration-200">
-                                    <a href={`#${section.href}`}>{section.name}</a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                    
-                    <ButtonOne  className="text-xs md:text-sm" asChild={true}>
-                        <a target="_blank" 
-                        href="https://api.whatsapp.com/send?phone=5511984339692&text=Olá, gostaria de fazer um orçamento">
-                            {t("header-button")}
-                        </a>
-                    </ButtonOne>
-                    
-
-                    <div className="w-full max-w-16">
-                        <Select value="" onValueChange={changeLanguage}>
-                            <SelectTrigger className="w-full bg-neutral-100 border-none shadow-md cursor-pointer">
-                                <LuGlobe/>
-                            </SelectTrigger>
-
-                            <SelectContent>
-                                {languages.map((lang, index) => (
-                                    <SelectItem className="cursor-pointer"   
-                                    key={index} value={lang}>
-                                        {lang}
-                                    </SelectItem>
-                                ))}
-                            </SelectContent>
-                        </Select>
-                    </div>
-
-
-
-                    
-                </nav>
-            </div>
-        </header>
+            </header>
+            <div className="h-14"></div>
+        </>
     )
 }
 
