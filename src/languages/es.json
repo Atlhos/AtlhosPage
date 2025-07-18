@@ -1,38 +1,48 @@
 {
     "header-languages": ["PT", "EN", "ES"],
     "header-navigations": [
-        { "name": "Sobre nosotros", "href": "about" },
+        { "name": "Sobre", "href": "about" },
         { "name": "Servicios", "href": "services" },
         { "name": "Tecnologías", "href": "technologies" },
         { "name": "Planes", "href": "plans" },
         { "name": "Portafolio", "href": "portfolio" },
         { "name": "Contactos", "href": "contacts" }
     ],
+    "header-button": "Presupuesto",
 
-    "section-1-h1": "Convertimos tus ideas en software",
-    "section-1-p": "Desde el concepto hasta el lanzamiento, construimos soluciones innovadoras adaptadas a tus necesidades.",
-    "section-1-button": "Explora nuestros servicios",
-
+    "section-1-h1": "Transformamos tus ideas en software",
+    "section-1-p": "Desde el concepto hasta el lanzamiento, creamos soluciones innovadoras a medida para tus necesidades.",
+    
     "section-2-h1": "Quiénes somos",
-    "section-2-p": "Tech Innovators es una empresa de desarrollo de software dedicada a construir aplicaciones de alta calidad centradas en el usuario. Nuestro equipo de desarrolladores, diseñadores y gerentes de proyecto trabaja en colaboración para dar vida a tu visión. Nos apasiona la tecnología y estamos comprometidos con entregar resultados excepcionales.",
+    "section-2-p": "ATLHOS nació con el propósito de hacer lo digital accesible, eficiente y sencillo para pequeñas y medianas empresas. Trabajamos con desarrollo de sitios web, tiendas virtuales, gestión de Instagram, identidad visual y soporte técnico. Entregamos soluciones completas con calidad, agilidad y atención humanizada, todo con precios justos y enfoque en el crecimiento real de nuestros clientes. </br></br> Nuestro compromiso es con resultados prácticos: hacer que tu negocio aparezca en Google, venda en línea, atraiga clientes a través de redes sociales y fortalezca su presencia en el mercado. Si quieres transformar tu empresa con tecnología accesible y un aspecto profesional, habla con nosotros. Caminemos juntos en el mundo digital.",
 
     "section-3-h1": "Nuestros principales servicios",
-    "section-3-p": "Nos especializamos en una variedad de servicios de desarrollo de software adaptados a las necesidades únicas de tu negocio.",
+    "section-3-p": "ATLHOS ofrece un portafolio completo de servicios digitales para transformar la forma en que tu negocio aparece, vende y se comunica en el mundo en línea.",
     "section-3-cards": [
         {
-        "h3": "Desarrollo web",
-        "p": "Creamos sitios web responsivos y dinámicos que atraen usuarios y aumentan las conversiones.",
+        "h3": "Creación de Sitios Web Profesionales",
+        "p": "Desarrollamos sitios institucionales modernos, responsivos y con diseño personalizado. Ideal para empresas que quieren fortalecer su presencia en línea y facilitar el contacto con clientes vía WhatsApp, redes sociales y ubicación en Google. Entregamos con rapidez, incluyendo dominio, alojamiento y diseño alineado con tu identidad.",
         "codeIcon": "<svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 640 512' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'><path d='M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z'></path></svg>"
         },
         {
-        "h3": "Aplicaciones móviles",
-        "p": "Desarrollamos aplicaciones móviles nativas y multiplataforma para iOS y Android.",
-        "codeIcon": "<svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 24 24' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'><g id='Mobile_3'><g><path d='M16.73,2.065H7.27a2.386,2.386,0,0,0-2.24,2.5v14.87a2.386,2.386,0,0,0,2.24,2.5h9.46a2.386,2.386,0,0,0,2.24-2.5V4.565A2.386,2.386,0,0,0,16.73,2.065Zm1.24,17.37a1.391,1.391,0,0,1-1.24,1.5H7.27a1.391,1.391,0,0,1-1.24-1.5V4.565a1.391,1.391,0,0,1,1.24-1.5H8.8v.51a1,1,0,0,0,1,1h4.4a1,1,0,0,0,1-1v-.51h1.53a1.391,1.391,0,0,1,1.24,1.5Z'></path><path d='M10,18.934h4a.5.5,0,0,0,0-1H10a.5.5,0,0,0,0,1Z'></path></g></g></svg>"
+        "h3": "Tiendas Virtuales",
+        "p": "Creamos comercios electrónicos completos, listos para vender. Nuestras tiendas en línea incluyen registro de productos, carrito de compras, cálculo automático de envíos, pagos vía Pix, tarjeta de crédito y boleto bancario, además de un panel de control simple para que puedas gestionar todo tú mismo. Entregamos con capacitación en video incluida.",
+        "codeIcon": "<svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 24 24' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'><path fill='none' d='M0 0h24v24H0V0z'></path><path d='M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49A.996.996 0 0 0 20.01 4H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z'></path></svg>"
         },
         {
-        "h3": "Sistemas de software personalizados",
-        "p": "Construimos soluciones de software a medida para optimizar tus procesos de negocio.",
-        "codeIcon": "<svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 24 24' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'><g id='Settings'><g><path d='M12.6,20.936H11.3a.883.883,0,0,1-.852-.654l-.774-2.833-2.5,1.435a.886.886,0,0,1-1.06-.138l-.925-.919a.884.884,0,0,1-.143-1.066l1.469-2.545L6.509,14.2l-2.787-.747a.882.882,0,0,1-.654-.851V11.3a.882.882,0,0,1,.652-.85l2.839-.777L5.12,7.171a.885.885,0,0,1,.141-1.062l.918-.918A.885.885,0,0,1,7.24,5.049L9.792,6.514l.012,0,.745-2.79a.881.881,0,0,1,.851-.655h1.3a.883.883,0,0,1,.852.655l.762,2.838,2.509-1.441a.885.885,0,0,1,1.059.138l.926.919a.882.882,0,0,1,.141,1.067L17.483,9.777l.008.022,2.786.746a.883.883,0,0,1,.653.851v1.3a.883.883,0,0,1-.654.852l-2.837.774,1.439,2.505a.881.881,0,0,1-.141,1.063l-.917.917a.888.888,0,0,1-1.063.141l-2.539-1.462L14.2,17.5l-.745,2.785A.885.885,0,0,1,12.6,20.936Zm-1.21-1h1.119l.738-2.756a.888.888,0,0,1,.528-.592l.134-.052a.873.873,0,0,1,.76.057l2.51,1.445.789-.789-1.423-2.478a.881.881,0,0,1-.048-.78l.052-.125a.875.875,0,0,1,.584-.51l2.8-.749v-1.12l-2.755-.737a.885.885,0,0,1-.592-.529l-.052-.132a.882.882,0,0,1,.057-.763L18.04,6.818l-.8-.79-2.48,1.425a.878.878,0,0,1-.772.052l-.115-.047a.888.888,0,0,1-.518-.588l-.748-2.806H11.492l-.738,2.762a.883.883,0,0,1-.539.6l-.12.045a.874.874,0,0,1-.751-.058L6.822,5.962l-.789.789L7.455,9.227a.886.886,0,0,1,.046.785l-.051.12a.876.876,0,0,1-.579.5l-2.8.758v1.121l2.757.738a.889.889,0,0,1,.591.525l.048.121a.874.874,0,0,1-.055.77L5.958,17.181l.8.791,2.47-1.419a.878.878,0,0,1,.787-.045l.106.044a.874.874,0,0,1,.526.591ZM9.75,17.482l.008,0ZM9.6,17.421l.007,0ZM6.487,14.147h0Zm.044-4.411h0Zm7.724-3.2Z'></path><path d='M12,15a3,3,0,1,1,3-3A3,3,0,0,1,12,15Zm0-5a2,2,0,1,0,2,2A2,2,0,0,0,12,10Z'></path></g></g></svg>"
+        "h3": "Gestión de Instagram",
+        "p": "Nos encargamos del aspecto visual y estratégico de tu Instagram para convertirlo en un escaparate profesional. Creamos publicaciones, historias, destacados, leyendas personalizadas y planes mensuales. También te ayudamos a ganar relevancia local con contenido atractivo y coherente con tu marca.",
+        "codeIcon": "<svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 24 24' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'><path d='M17.3183118,0.0772036939 C18.5358869,0.132773211 19.3775594,0.311686093 20.156489,0.614412318 C20.9357539,0.917263935 21.5259307,1.30117806 22.1124276,1.88767349 C22.6988355,2.47414659 23.0827129,3.06422396 23.3856819,3.84361655 C23.688357,4.62263666 23.8672302,5.46418415 23.9227984,6.68172489 C23.9916356,8.19170553 24,8.72394829 24,11.9999742 C24,15.2760524 23.9916355,15.808302 23.9227954,17.3182896 C23.8672306,18.5358038 23.6883589,19.3773584 23.3855877,20.1566258 C23.0826716,20.9358162 22.6987642,21.5259396 22.1124276,22.1122749 C21.5259871,22.6987804 20.9357958,23.0827198 20.1563742,23.3856323 C19.3772192,23.6883583 18.5357324,23.8672318 17.3183209,23.9227442 C15.8086874,23.9916325 15.2765626,24 12,24 C8.72343739,24 8.19131258,23.9916325 6.68172382,23.9227463 C5.46426077,23.8672314 4.62270711,23.6883498 3.84342369,23.3855738 C3.0641689,23.0827004 2.47399369,22.6987612 1.88762592,22.1123283 C1.30117312,21.525877 0.91721975,20.9357071 0.614318116,20.1563835 C0.311643016,19.3773633 0.132769821,18.5358159 0.0772038909,17.3183251 C0.0083529426,15.8092887 0,15.2774634 0,11.9999742 C0,8.7225328 0.00835296697,8.19071076 0.0772047368,6.68165632 C0.132769821,5.46418415 0.311643016,4.62263666 0.614362729,3.84350174 C0.91719061,3.06430165 1.30113536,2.4741608 1.88757245,1.88772514 C2.47399369,1.30123879 3.0641689,0.917299613 3.84345255,0.614414972 C4.62236201,0.311696581 5.46409415,0.132773979 6.68163888,0.0772035898 C8.19074867,0.00835221992 8.72252573,0 12,0 C15.2774788,0 15.8092594,0.00835235053 17.3183118,0.0772036939 Z M12,2.66666667 C8.75959504,2.66666667 8.26400713,2.67445049 6.80319929,2.74109814 C5.87614637,2.78341009 5.31952221,2.90172878 4.80947575,3.09995521 C4.37397765,3.26922052 4.09725505,3.44924273 3.77324172,3.77329203 C3.44916209,4.09737087 3.26913181,4.37408574 3.09996253,4.80937168 C2.90169965,5.31965737 2.78340891,5.87618164 2.74109927,6.80321713 C2.67445122,8.26397158 2.66666667,8.75960374 2.66666667,11.9999742 C2.66666667,15.2403924 2.67445121,15.7360281 2.74109842,17.1967643 C2.78340891,18.1238184 2.90169965,18.6803426 3.09990404,19.1904778 C3.26914133,19.6259017 3.44919889,19.9026659 3.77329519,20.2267614 C4.09725505,20.5507573 4.37397765,20.7307795 4.80932525,20.8999863 C5.31971515,21.0982887 5.87621193,21.2165784 6.80323907,21.2588497 C8.26460439,21.3255353 8.76051223,21.3333333 12,21.3333333 C15.2394878,21.3333333 15.7353956,21.3255353 17.1968056,21.2588476 C18.123775,21.216579 18.6802056,21.0982995 19.1905083,20.9000309 C19.6260288,20.7307713 19.9027426,20.5507596 20.2267583,20.226708 C20.5507492,19.9027179 20.7308046,19.6259456 20.9000375,19.1906283 C21.0983009,18.6803412 21.2165908,18.1238118 21.2588986,17.196779 C21.3255376,15.7350718 21.3333333,15.2390126 21.3333333,11.9999742 C21.3333333,8.76098665 21.3255376,8.26493375 21.2589016,6.80323567 C21.2165911,5.87618164 21.0983004,5.31965737 20.9001178,4.80957831 C20.7308131,4.37403932 20.550774,4.09729207 20.2267583,3.77324038 C19.9027658,3.44924868 19.6260264,3.26922777 19.1905015,3.09996643 C18.6803988,2.90171817 18.1238378,2.78341062 17.1967608,2.74109868 C15.7359966,2.67445057 15.2404012,2.66666667 12,2.66666667 Z M12,18.2222222 C8.56356156,18.2222222 5.77777778,15.4364384 5.77777778,12 C5.77777778,8.56356156 8.56356156,5.77777778 12,5.77777778 C15.4364384,5.77777778 18.2222222,8.56356156 18.2222222,12 C18.2222222,15.4364384 15.4364384,18.2222222 12,18.2222222 Z M12,15.5555556 C13.9636791,15.5555556 15.5555556,13.9636791 15.5555556,12 C15.5555556,10.0363209 13.9636791,8.44444444 12,8.44444444 C10.0363209,8.44444444 8.44444444,10.0363209 8.44444444,12 C8.44444444,13.9636791 10.0363209,15.5555556 12,15.5555556 Z M18.2222222,7.11111111 C17.4858426,7.11111111 16.8888889,6.51415744 16.8888889,5.77777778 C16.8888889,5.04139811 17.4858426,4.44444444 18.2222222,4.44444444 C18.9586019,4.44444444 19.5555556,5.04139811 19.5555556,5.77777778 C19.5555556,6.51415744 18.9586019,7.11111111 18.2222222,7.11111111 Z'></path></svg>"
+        },
+        {
+        "h3": "Identidad Visual y Branding",
+        "p": "Nos encargamos de la primera impresión de tu negocio. Creamos logotipos, paletas de colores, tipografía, tarjetas digitales y kits para redes sociales. Todo entregado en alta calidad (PDF y PNG), listo para imprimir y usar en línea, además de presentaciones de marca para que puedas promocionarte con confianza.",
+        "codeIcon": "<svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 24 24' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'><path fill='none' d='M0 0h24v24H0V0z'></path><path d='M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h18v14zm-10-7h9v6h-9z'></path></svg>"
+        },
+        {
+        "h3": "Soporte y Mantenimiento Técnico",
+        "p": "Después de la entrega, seguimos contigo. Realizamos actualizaciones mensuales, corrección de errores, copias de seguridad de seguridad y ofrecemos soporte técnico vía WhatsApp siempre que lo necesites. Evita dolores de cabeza con la tecnología: nosotros nos encargamos de que todo siga funcionando perfectamente.",
+        "codeIcon": "<svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 24 24' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'><path fill='none' d='M0 0h24v24H0V0z'></path><path d='M11 23.59v-3.6c-5.01-.26-9-4.42-9-9.49C2 5.26 6.26 1 11.5 1S21 5.26 21 10.5c0 4.95-3.44 9.93-8.57 12.4l-1.43.69zM11.5 3C7.36 3 4 6.36 4 10.5S7.36 18 11.5 18H13v2.3c3.64-2.3 6-6.08 6-9.8C19 6.36 15.64 3 11.5 3zm-1 11.5h2v2h-2zm2-1.5h-2c0-3.25 3-3 3-5 0-1.1-.9-2-2-2s-2 .9-2 2h-2c0-2.21 1.79-4 4-4s4 1.79 4 4c0 2.5-3 2.75-3 5z'></path></svg>"
         }
     ],
 
@@ -42,36 +52,44 @@
     "section-5-h1": "Planes",
     "section-5-plans": [
         {
-        "name": "Básico",
-        "badge": "Ideal para equipos pequeños",
-        "price": 100.0,
-        "period": "mes",
+        "name": "Start Digital",
+        "badge": "Para quienes quieren comenzar con sitio web + identidad visual",
+        "price": 690,
         "features": [
-            "Plantillas personalizables",
-            "Integraciones básicas",
-            "Soporte comunitario"
+            "Sitio web",
+            "Identidad visual",
+            "Enlaces de redirección"
         ]
         },
         {
-        "name": "Pro",
-        "badge": "Ideal para startups en crecimiento",
-        "price": 300.0,
-        "period": "mes",
+        "name": "Tienda Express",
+        "badge": "Para quienes quieren empezar a vender en línea",
+        "price": 990,
         "features": [
-            "Funciones avanzadas",
-            "Soporte prioritario",
-            "Panel de análisis"
+            "Tienda virtual",
+            "Comercio electrónico personalizado",
+            "Integraciones personalizadas"
         ]
         },
         {
-        "name": "Empresarial",
-        "badge": "Ideal para grandes empresas",
-        "price": 599.0,
+        "name": "Presencia Online",
+        "badge": "Para quienes quieren dinamizar su Instagram",
+        "price": 350,
         "period": "mes",
         "features": [
-            "Gerente de cuenta dedicado",
-            "Integraciones personalizadas",
-            "Soluciones escalables"
+            "Organización de contenido",
+            "Publicaciones personalizadas",
+            "Captación de leads"
+        ]
+        },
+        {
+        "name": "Todo Listo",
+        "badge": "Solución completa",
+        "price": 1500,
+        "features": [
+            "Sitio web",
+            "Instagram",
+            "Branding"
         ]
         }
     ],
@@ -81,18 +99,43 @@
     "section-6-projects": [
         {
         "name": "SalãoCondo",
-        "description": "SalãoCondo es un sistema diseñado para simplificar el uso y la gestión del salón de eventos del condominio. Los residentes pueden reservar fechas y gestionar invitados, mientras los administradores controlan residentes, pagos y acceden a un panel con información e informes completos.",
+        "description": "SalãoCondo es un sistema desarrollado para facilitar el uso y gestión del salón de fiestas de un condominio. Los residentes pueden reservar fechas y gestionar invitados, mientras que los administradores controlan residentes, pagos y tienen acceso a un panel con información y gestión completa de reservas.",
         "image": "https://lh3.googleusercontent.com/d/10PeYyN0gRltY1FI9mGvaNVCnw68GZro6"
         },
         {
         "name": "Credit Manage",
-        "description": "Credit Manage es un sistema que desarrollé para ayudar a gestionar los gastos con tarjeta de crédito. Permite registrar tarjetas, autorizar usuarios y ajustar automáticamente las cuotas según la fecha de compra, el ciclo de facturación y la fecha actual — asegurando un control financiero más preciso.",
+        "description": "Credit Manage es un sistema que desarrollé para ayudar a gestionar gastos con tarjeta de crédito. Permite registrar tarjetas, autorizar usuarios y ajustar automáticamente las cuotas según la fecha de compra, el ciclo de cierre de la tarjeta y la fecha actual, garantizando un control financiero más preciso.",
         "image": "https://lh3.googleusercontent.com/d/1Nvvg8y26YQoXhMrZwkV_cz9rv8HsjBf-"
         },
         {
         "name": "New Tech TVS",
-        "description": "NewTech TVS es una landing page desarrollada para un servicio de reparación de televisores. El proyecto presenta enlaces de contacto, información sobre los servicios ofrecidos y opiniones de clientes.",
+        "description": "NewTech TVS es una página de destino desarrollada para un servicio de reparación de televisores. El proyecto incluye enlaces de contacto, información sobre los servicios ofrecidos y reseñas de clientes.",
         "image": "https://lh3.googleusercontent.com/d/10oVZwGlLw2sumFhZmdm0ebSD-pq0CKFs"
+        }
+    ],
+
+    "section-7-h1":"¿Listo para transformar tus ideas en realidad?",
+    "section-7-button":"Comenzar",
+
+    "footer-span":["Política de Privacidad", "Términos de Servicio", "Contáctenos"],
+    "footer-contacts":[
+        {
+            "name":"Instagram",
+            "type":"Link",
+            "href":"https://www.instagram.com/atlhoss?igsh=cngwaHhtZXFyNG5j",
+            "icon":"<svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 24 24' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'><path d='M17.3183118,0.0772036939 C18.5358869,0.132773211 19.3775594,0.311686093 20.156489,0.614412318 C20.9357539,0.917263935 21.5259307,1.30117806 22.1124276,1.88767349 C22.6988355,2.47414659 23.0827129,3.06422396 23.3856819,3.84361655 C23.688357,4.62263666 23.8672302,5.46418415 23.9227984,6.68172489 C23.9916356,8.19170553 24,8.72394829 24,11.9999742 C24,15.2760524 23.9916355,15.808302 23.9227954,17.3182896 C23.8672306,18.5358038 23.6883589,19.3773584 23.3855877,20.1566258 C23.0826716,20.9358162 22.6987642,21.5259396 22.1124276,22.1122749 C21.5259871,22.6987804 20.9357958,23.0827198 20.1563742,23.3856323 C19.3772192,23.6883583 18.5357324,23.8672318 17.3183209,23.9227442 C15.8086874,23.9916325 15.2765626,24 12,24 C8.72343739,24 8.19131258,23.9916325 6.68172382,23.9227463 C5.46426077,23.8672314 4.62270711,23.6883498 3.84342369,23.3855738 C3.0641689,23.0827004 2.47399369,22.6987612 1.88762592,22.1123283 C1.30117312,21.525877 0.91721975,20.9357071 0.614318116,20.1563835 C0.311643016,19.3773633 0.132769821,18.5358159 0.0772038909,17.3183251 C0.0083529426,15.8092887 0,15.2774634 0,11.9999742 C0,8.7225328 0.00835296697,8.19071076 0.0772047368,6.68165632 C0.132769821,5.46418415 0.311643016,4.62263666 0.614362729,3.84350174 C0.91719061,3.06430165 1.30113536,2.4741608 1.88757245,1.88772514 C2.47399369,1.30123879 3.0641689,0.917299613 3.84345255,0.614414972 C4.62236201,0.311696581 5.46409415,0.132773979 6.68163888,0.0772035898 C8.19074867,0.00835221992 8.72252573,0 12,0 C15.2774788,0 15.8092594,0.00835235053 17.3183118,0.0772036939 Z M12,2.66666667 C8.75959504,2.66666667 8.26400713,2.67445049 6.80319929,2.74109814 C5.87614637,2.78341009 5.31952221,2.90172878 4.80947575,3.09995521 C4.37397765,3.26922052 4.09725505,3.44924273 3.77324172,3.77329203 C3.44916209,4.09737087 3.26913181,4.37408574 3.09996253,4.80937168 C2.90169965,5.31965737 2.78340891,5.87618164 2.74109927,6.80321713 C2.67445122,8.26397158 2.66666667,8.75960374 2.66666667,11.9999742 C2.66666667,15.2403924 2.67445121,15.7360281 2.74109842,17.1967643 C2.78340891,18.1238184 2.90169965,18.6803426 3.09990404,19.1904778 C3.26914133,19.6259017 3.44919889,19.9026659 3.77329519,20.2267614 C4.09725505,20.5507573 4.37397765,20.7307795 4.80932525,20.8999863 C5.31971515,21.0982887 5.87621193,21.2165784 6.80323907,21.2588497 C8.26460439,21.3255353 8.76051223,21.3333333 12,21.3333333 C15.2394878,21.3333333 15.7353956,21.3255353 17.1968056,21.2588476 C18.123775,21.216579 18.6802056,21.0982995 19.1905083,20.9000309 C19.6260288,20.7307713 19.9027426,20.5507596 20.2267583,20.226708 C20.5507492,19.9027179 20.7308046,19.6259456 20.9000375,19.1906283 C21.0983009,18.6803412 21.2165908,18.1238118 21.2588986,17.196779 C21.3255376,15.7350718 21.3333333,15.2390126 21.3333333,11.9999742 C21.3333333,8.76098665 21.3255376,8.26493375 21.2589016,6.80323567 C21.2165911,5.87618164 21.0983004,5.31965737 20.9001178,4.80957831 C20.7308131,4.37403932 20.550774,4.09729207 20.2267583,3.77324038 C19.9027658,3.44924868 19.6260264,3.26922777 19.1905015,3.09996643 C18.6803988,2.90171817 18.1238378,2.78341062 17.1967608,2.74109868 C15.7359966,2.67445057 15.2404012,2.66666667 12,2.66666667 Z M12,18.2222222 C8.56356156,18.2222222 5.77777778,15.4364384 5.77777778,12 C5.77777778,8.56356156 8.56356156,5.77777778 12,5.77777778 C15.4364384,5.77777778 18.2222222,8.56356156 18.2222222,12 C18.2222222,15.4364384 15.4364384,18.2222222 12,18.2222222 Z M12,15.5555556 C13.9636791,15.5555556 15.5555556,13.9636791 15.5555556,12 C15.5555556,10.0363209 13.9636791,8.44444444 12,8.44444444 C10.0363209,8.44444444 8.44444444,10.0363209 8.44444444,12 C8.44444444,13.9636791 10.0363209,15.5555556 12,15.5555556 Z M18.2222222,7.11111111 C17.4858426,7.11111111 16.8888889,6.51415744 16.8888889,5.77777778 C16.8888889,5.04139811 17.4858426,4.44444444 18.2222222,4.44444444 C18.9586019,4.44444444 19.5555556,5.04139811 19.5555556,5.77777778 C19.5555556,6.51415744 18.9586019,7.11111111 18.2222222,7.11111111 Z'></path></svg>"
+        },
+        {
+            "name":"Whatsapp",
+            "type":"Link",
+            "href":"https://api.whatsapp.com/send?phone=5511984339692&text=",
+            "icon":"<svg stroke='currentColor' fill='currentColor' stroke-width='0' version='1.1' viewBox='0 0 16 16' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'><path d='M13.641 2.325c-1.497-1.5-3.488-2.325-5.609-2.325-4.369 0-7.925 3.556-7.925 7.928 0 1.397 0.366 2.763 1.059 3.963l-1.125 4.109 4.203-1.103c1.159 0.631 2.463 0.966 3.787 0.966h0.003c0 0 0 0 0 0 4.369 0 7.928-3.556 7.928-7.928 0-2.119-0.825-4.109-2.322-5.609zM8.034 14.525v0c-1.184 0-2.344-0.319-3.356-0.919l-0.241-0.144-2.494 0.653 0.666-2.431-0.156-0.25c-0.663-1.047-1.009-2.259-1.009-3.506 0-3.634 2.956-6.591 6.594-6.591 1.759 0 3.416 0.688 4.659 1.931 1.244 1.247 1.928 2.9 1.928 4.662-0.003 3.637-2.959 6.594-6.591 6.594zM11.647 9.588c-0.197-0.1-1.172-0.578-1.353-0.644s-0.313-0.1-0.447 0.1c-0.131 0.197-0.512 0.644-0.628 0.778-0.116 0.131-0.231 0.15-0.428 0.050s-0.838-0.309-1.594-0.984c-0.588-0.525-0.987-1.175-1.103-1.372s-0.013-0.306 0.088-0.403c0.091-0.088 0.197-0.231 0.297-0.347s0.131-0.197 0.197-0.331c0.066-0.131 0.034-0.247-0.016-0.347s-0.447-1.075-0.609-1.472c-0.159-0.388-0.325-0.334-0.447-0.341-0.116-0.006-0.247-0.006-0.378-0.006s-0.347 0.050-0.528 0.247c-0.181 0.197-0.694 0.678-0.694 1.653s0.709 1.916 0.809 2.050c0.1 0.131 1.397 2.134 3.384 2.991 0.472 0.203 0.841 0.325 1.128 0.419 0.475 0.15 0.906 0.128 1.247 0.078 0.381-0.056 1.172-0.478 1.338-0.941s0.166-0.859 0.116-0.941c-0.047-0.088-0.178-0.137-0.378-0.238z'></path></svg>"
+        },
+        {
+            "name":"Teléfono",
+            "type":"Tel",
+            "href":"5511984339692",
+            "icon":"<svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 512 512' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'><path fill='none' stroke-miterlimit='10' stroke-width='32' d='M451 374c-15.88-16-54.34-39.35-73-48.76-24.3-12.24-26.3-13.24-45.4.95-12.74 9.47-21.21 17.93-36.12 14.75s-47.31-21.11-75.68-49.39-47.34-61.62-50.53-76.48 5.41-23.23 14.79-36c13.22-18 12.22-21 .92-45.3-8.81-18.9-32.84-57-48.9-72.8C119.9 44 119.9 47 108.83 51.6A160.15 160.15 0 0 0 83 65.37C67 76 58.12 84.83 51.91 98.1s-9 44.38 23.07 102.64 54.57 88.05 101.14 134.49S258.5 406.64 310.85 436c64.76 36.27 89.6 29.2 102.91 23s22.18-15 32.83-31a159.09 159.09 0 0 0 13.8-25.8C465 391.17 468 391.17 451 374z'></path></svg>"
         }
     ]
 }

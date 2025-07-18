@@ -3,17 +3,16 @@ import { Button } from "@/components/ui/button";
 import clsx from "clsx";
 
 interface ButtonProps extends React.ComponentProps<'button'> {
-  text: string;
+  asChild?: boolean
 }
 
-function ButtonTwo({ text, className, ...rest }: ButtonProps) {
+function ButtonTwo({ asChild = false, className, ...rest }: ButtonProps) {
   return (
     <Button
-      variant="outline"
+      variant="outline" asChild={asChild}
       className={clsx("bg-mainLight text-black hover:bg-main hover:text-black border-none font-bold", className)}
       {...rest}
     >
-      {text}
     </Button>
   )
 }

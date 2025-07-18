@@ -8,6 +8,7 @@ import { LanguageContexts } from "@/contexts/languageContexts";
 import { useTranslation } from "react-i18next";
 import Loading from "../loading";
 
+
 interface hrefProps{
     href:string,
     name:string
@@ -40,13 +41,14 @@ function Header(){
 
                     <div className="w-full max-w-32 md:hidden">
                         <Select value="" onValueChange={idNavigate}>
-                            <SelectTrigger className="w-full  border-none shadow-md text-xs" >
+                            <SelectTrigger className="w-full  border-none shadow-md text-xs cursor-pointer" >
                                 <SelectValue placeholder="Navegar"/>
                             </SelectTrigger>
 
                             <SelectContent>
                                 {sections.map((section) => (
-                                    <SelectItem key={section.name} value={section.href}>
+                                    <SelectItem className="cursor-pointer"  
+                                    key={section.name} value={section.href}>
                                         {section.name}
                                     </SelectItem>
                                 ))}
@@ -64,18 +66,24 @@ function Header(){
                         </ul>
                     </div>
                     
-                    <ButtonOne text="Orçamento" className="text-xs md:text-sm"/>
+                    <ButtonOne  className="text-xs md:text-sm" asChild={true}>
+                        <a target="_blank" 
+                        href="https://api.whatsapp.com/send?phone=5511984339692&text=Olá, gostaria de fazer um orçamento">
+                            {t("header-button")}
+                        </a>
+                    </ButtonOne>
                     
 
                     <div className="w-full max-w-16">
                         <Select value="" onValueChange={changeLanguage}>
-                            <SelectTrigger className="w-full bg-neutral-100 border-none shadow-md">
+                            <SelectTrigger className="w-full bg-neutral-100 border-none shadow-md cursor-pointer">
                                 <LuGlobe/>
                             </SelectTrigger>
 
                             <SelectContent>
                                 {languages.map((lang, index) => (
-                                    <SelectItem key={index} value={lang}>
+                                    <SelectItem className="cursor-pointer"   
+                                    key={index} value={lang}>
                                         {lang}
                                     </SelectItem>
                                 ))}

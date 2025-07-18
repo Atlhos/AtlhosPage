@@ -8,31 +8,41 @@
         { "name": "Portfólio", "href": "portfolio" },
         { "name": "Contatos", "href": "contacts" }
     ],
+    "header-button": "Orçamento",
 
     "section-1-h1": "Transformamos suas ideias em software",
     "section-1-p": "Do conceito ao lançamento, criamos soluções inovadoras sob medida para suas necessidades.",
-    "section-1-button": "Explorar nossos serviços",
-
+    
     "section-2-h1": "Quem somos",
-    "section-2-p": "A Tech Innovators é uma empresa de desenvolvimento de software dedicada a criar aplicações de alta qualidade e centradas no usuário. Nosso time de desenvolvedores, designers e gerentes de projeto trabalha de forma colaborativa para dar vida à sua visão. Somos apaixonados por tecnologia e comprometidos em entregar resultados excepcionais.",
+    "section-2-p": "A ATLHOS nasceu com o propósito de tornar o digital acessível, eficiente e descomplicado para pequenos e médios negócios. Atuamos com desenvolvimento de sites, lojas virtuais, gestão de Instagram, identidade visual e suporte técnico. Entregamos soluções completas com qualidade, agilidade e atendimento humanizado — tudo com preços justos e foco no crescimento real dos nossos clientes. </br></br> Nosso compromisso é com resultados práticos: fazer seu negócio aparecer no Google, vender online, atrair clientes pelas redes sociais e fortalecer sua presença no mercado. Se você quer transformar sua empresa com tecnologia acessível e visual profissional, fale com a gente. Vamos caminhar juntos no mundo digital.",
 
     "section-3-h1": "Nossos principais serviços",
-    "section-3-p": "Somos especializados em diversos serviços de desenvolvimento de software, adaptados às necessidades únicas do seu negócio.",
+    "section-3-p": "A ATLHOS oferece um portfólio completo de serviços digitais para transformar a forma como seu negócio aparece, vende e se comunica no mundo online.",
     "section-3-cards": [
         {
-        "h3": "Desenvolvimento Web",
-        "p": "Criamos sites responsivos e dinâmicos que envolvem os usuários e aumentam as conversões.",
+        "h3": "Criação de Sites Profissionais",
+        "p": "Desenvolvemos sites institucionais modernos, responsivos e com visual personalizado. Ideal para empresas que querem fortalecer sua presença online e facilitar o contato com clientes via WhatsApp, redes sociais e localização no Google. Entregamos com rapidez, domínio, hospedagem e layout alinhado à sua identidade.",
         "codeIcon": "<svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 640 512' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'><path d='M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z'></path></svg>"
         },
         {
-        "h3": "Aplicativos Mobile",
-        "p": "Desenvolvemos apps nativos e multiplataforma para iOS e Android.",
-        "codeIcon": "<svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 24 24' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'><g id='Mobile_3'><g><path d='M16.73,2.065H7.27a2.386,2.386,0,0,0-2.24,2.5v14.87a2.386,2.386,0,0,0,2.24,2.5h9.46a2.386,2.386,0,0,0,2.24-2.5V4.565A2.386,2.386,0,0,0,16.73,2.065Zm1.24,17.37a1.391,1.391,0,0,1-1.24,1.5H7.27a1.391,1.391,0,0,1-1.24-1.5V4.565a1.391,1.391,0,0,1,1.24-1.5H8.8v.51a1,1,0,0,0,1,1h4.4a1,1,0,0,0,1-1v-.51h1.53a1.391,1.391,0,0,1,1.24,1.5Z'></path><path d='M10,18.934h4a.5.5,0,0,0,0-1H10a.5.5,0,0,0,0,1Z'></path></g></g></svg>"
+        "h3": "Lojas Virtuais",
+        "p": "Criamos e-commerces completos, prontos para vender. Nossas lojas virtuais contam com cadastro de produtos, carrinho, frete automático, pagamento via Pix, cartão e boleto, além de painel de controle simples para que você mesmo consiga gerenciar tudo. Entregamos já com treinamento em vídeo.",
+        "codeIcon": "<svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 24 24' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'><path fill='none' d='M0 0h24v24H0V0z'></path><path d='M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49A.996.996 0 0 0 20.01 4H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z'></path></svg>"
         },
         {
-        "h3": "Sistemas Personalizados",
-        "p": "Construímos soluções de software sob medida para otimizar os processos da sua empresa.",
-        "codeIcon": "<svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 24 24' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'><g id='Settings'><g><path d='M12.6,20.936H11.3a.883.883,0,0,1-.852-.654l-.774-2.833-2.5,1.435a.886.886,0,0,1-1.06-.138l-.925-.919a.884.884,0,0,1-.143-1.066l1.469-2.545L6.509,14.2l-2.787-.747a.882.882,0,0,1-.654-.851V11.3a.882.882,0,0,1,.652-.85l2.839-.777L5.12,7.171a.885.885,0,0,1,.141-1.062l.918-.918A.885.885,0,0,1,7.24,5.049L9.792,6.514l.012,0,.745-2.79a.881.881,0,0,1,.851-.655h1.3a.883.883,0,0,1,.852.655l.762,2.838,2.509-1.441a.885.885,0,0,1,1.059.138l.926.919a.882.882,0,0,1,.141,1.067L17.483,9.777l.008.022,2.786.746a.883.883,0,0,1,.653.851v1.3a.883.883,0,0,1-.654.852l-2.837.774,1.439,2.505a.881.881,0,0,1-.141,1.063l-.917.917a.888.888,0,0,1-1.063.141l-2.539-1.462L14.2,17.5l-.745,2.785A.885.885,0,0,1,12.6,20.936Zm-1.21-1h1.119l.738-2.756a.888.888,0,0,1,.528-.592l.134-.052a.873.873,0,0,1,.76.057l2.51,1.445.789-.789-1.423-2.478a.881.881,0,0,1-.048-.78l.052-.125a.875.875,0,0,1,.584-.51l2.8-.749v-1.12l-2.755-.737a.885.885,0,0,1-.592-.529l-.052-.132a.882.882,0,0,1,.057-.763L18.04,6.818l-.8-.79-2.48,1.425a.878.878,0,0,1-.772.052l-.115-.047a.888.888,0,0,1-.518-.588l-.748-2.806H11.492l-.738,2.762a.883.883,0,0,1-.539.6l-.12.045a.874.874,0,0,1-.751-.058L6.822,5.962l-.789.789L7.455,9.227a.886.886,0,0,1,.046.785l-.051.12a.876.876,0,0,1-.579.5l-2.8.758v1.121l2.757.738a.889.889,0,0,1,.591.525l.048.121a.874.874,0,0,1-.055.77L5.958,17.181l.8.791,2.47-1.419a.878.878,0,0,1,.787-.045l.106.044a.874.874,0,0,1,.526.591ZM9.75,17.482l.008,0ZM9.6,17.421l.007,0ZM6.487,14.147h0Zm.044-4.411h0Zm7.724-3.2Z'></path><path d='M12,15a3,3,0,1,1,3-3A3,3,0,0,1,12,15Zm0-5a2,2,0,1,0,2,2A2,2,0,0,0,12,10Z'></path></g></g></svg>"
+        "h3": "Gestão de Instagram",
+        "p": "Assumimos a parte visual e estratégica do seu Instagram para transformá-lo numa vitrine profissional. Criamos posts, stories, destaques, legendas personalizadas e planejamentos mensais. Também ajudamos você a ganhar relevância local com conteúdo atrativo e coerente com sua marca.",
+        "codeIcon": "<svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 24 24' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'><path d='M17.3183118,0.0772036939 C18.5358869,0.132773211 19.3775594,0.311686093 20.156489,0.614412318 C20.9357539,0.917263935 21.5259307,1.30117806 22.1124276,1.88767349 C22.6988355,2.47414659 23.0827129,3.06422396 23.3856819,3.84361655 C23.688357,4.62263666 23.8672302,5.46418415 23.9227984,6.68172489 C23.9916356,8.19170553 24,8.72394829 24,11.9999742 C24,15.2760524 23.9916355,15.808302 23.9227954,17.3182896 C23.8672306,18.5358038 23.6883589,19.3773584 23.3855877,20.1566258 C23.0826716,20.9358162 22.6987642,21.5259396 22.1124276,22.1122749 C21.5259871,22.6987804 20.9357958,23.0827198 20.1563742,23.3856323 C19.3772192,23.6883583 18.5357324,23.8672318 17.3183209,23.9227442 C15.8086874,23.9916325 15.2765626,24 12,24 C8.72343739,24 8.19131258,23.9916325 6.68172382,23.9227463 C5.46426077,23.8672314 4.62270711,23.6883498 3.84342369,23.3855738 C3.0641689,23.0827004 2.47399369,22.6987612 1.88762592,22.1123283 C1.30117312,21.525877 0.91721975,20.9357071 0.614318116,20.1563835 C0.311643016,19.3773633 0.132769821,18.5358159 0.0772038909,17.3183251 C0.0083529426,15.8092887 0,15.2774634 0,11.9999742 C0,8.7225328 0.00835296697,8.19071076 0.0772047368,6.68165632 C0.132769821,5.46418415 0.311643016,4.62263666 0.614362729,3.84350174 C0.91719061,3.06430165 1.30113536,2.4741608 1.88757245,1.88772514 C2.47399369,1.30123879 3.0641689,0.917299613 3.84345255,0.614414972 C4.62236201,0.311696581 5.46409415,0.132773979 6.68163888,0.0772035898 C8.19074867,0.00835221992 8.72252573,0 12,0 C15.2774788,0 15.8092594,0.00835235053 17.3183118,0.0772036939 Z M12,2.66666667 C8.75959504,2.66666667 8.26400713,2.67445049 6.80319929,2.74109814 C5.87614637,2.78341009 5.31952221,2.90172878 4.80947575,3.09995521 C4.37397765,3.26922052 4.09725505,3.44924273 3.77324172,3.77329203 C3.44916209,4.09737087 3.26913181,4.37408574 3.09996253,4.80937168 C2.90169965,5.31965737 2.78340891,5.87618164 2.74109927,6.80321713 C2.67445122,8.26397158 2.66666667,8.75960374 2.66666667,11.9999742 C2.66666667,15.2403924 2.67445121,15.7360281 2.74109842,17.1967643 C2.78340891,18.1238184 2.90169965,18.6803426 3.09990404,19.1904778 C3.26914133,19.6259017 3.44919889,19.9026659 3.77329519,20.2267614 C4.09725505,20.5507573 4.37397765,20.7307795 4.80932525,20.8999863 C5.31971515,21.0982887 5.87621193,21.2165784 6.80323907,21.2588497 C8.26460439,21.3255353 8.76051223,21.3333333 12,21.3333333 C15.2394878,21.3333333 15.7353956,21.3255353 17.1968056,21.2588476 C18.123775,21.216579 18.6802056,21.0982995 19.1905083,20.9000309 C19.6260288,20.7307713 19.9027426,20.5507596 20.2267583,20.226708 C20.5507492,19.9027179 20.7308046,19.6259456 20.9000375,19.1906283 C21.0983009,18.6803412 21.2165908,18.1238118 21.2588986,17.196779 C21.3255376,15.7350718 21.3333333,15.2390126 21.3333333,11.9999742 C21.3333333,8.76098665 21.3255376,8.26493375 21.2589016,6.80323567 C21.2165911,5.87618164 21.0983004,5.31965737 20.9001178,4.80957831 C20.7308131,4.37403932 20.550774,4.09729207 20.2267583,3.77324038 C19.9027658,3.44924868 19.6260264,3.26922777 19.1905015,3.09996643 C18.6803988,2.90171817 18.1238378,2.78341062 17.1967608,2.74109868 C15.7359966,2.67445057 15.2404012,2.66666667 12,2.66666667 Z M12,18.2222222 C8.56356156,18.2222222 5.77777778,15.4364384 5.77777778,12 C5.77777778,8.56356156 8.56356156,5.77777778 12,5.77777778 C15.4364384,5.77777778 18.2222222,8.56356156 18.2222222,12 C18.2222222,15.4364384 15.4364384,18.2222222 12,18.2222222 Z M12,15.5555556 C13.9636791,15.5555556 15.5555556,13.9636791 15.5555556,12 C15.5555556,10.0363209 13.9636791,8.44444444 12,8.44444444 C10.0363209,8.44444444 8.44444444,10.0363209 8.44444444,12 C8.44444444,13.9636791 10.0363209,15.5555556 12,15.5555556 Z M18.2222222,7.11111111 C17.4858426,7.11111111 16.8888889,6.51415744 16.8888889,5.77777778 C16.8888889,5.04139811 17.4858426,4.44444444 18.2222222,4.44444444 C18.9586019,4.44444444 19.5555556,5.04139811 19.5555556,5.77777778 C19.5555556,6.51415744 18.9586019,7.11111111 18.2222222,7.11111111 Z'></path></svg>"
+        },
+        {
+        "h3": "Identidade Visual e Branding",
+        "p": "Cuidamos da primeira impressão do seu negócio. Criamos logo, paleta de cores, tipografia, cartão digital e kit de redes sociais. Tudo entregue em alta qualidade (PDF e PNG), pronto para impressão e uso online, além de apresentações de marca para você divulgar com confiança.",
+        "codeIcon": "<svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 24 24' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'><path fill='none' d='M0 0h24v24H0V0z'></path><path d='M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h18v14zm-10-7h9v6h-9z'></path></svg>"
+        },
+        {
+        "h3": "Suporte e Manutenção Técnica",
+        "p": "Depois da entrega, continuamos com você. Fazemos atualizações mensais, correções de erros, backups de segurança e damos suporte técnico via WhatsApp sempre que precisar. Evite dores de cabeça com tecnologia — a gente cuida para que tudo continue funcionando perfeitamente.",
+        "codeIcon": "<svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 24 24' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'><path fill='none' d='M0 0h24v24H0V0z'></path><path d='M11 23.59v-3.6c-5.01-.26-9-4.42-9-9.49C2 5.26 6.26 1 11.5 1S21 5.26 21 10.5c0 4.95-3.44 9.93-8.57 12.4l-1.43.69zM11.5 3C7.36 3 4 6.36 4 10.5S7.36 18 11.5 18H13v2.3c3.64-2.3 6-6.08 6-9.8C19 6.36 15.64 3 11.5 3zm-1 11.5h2v2h-2zm2-1.5h-2c0-3.25 3-3 3-5 0-1.1-.9-2-2-2s-2 .9-2 2h-2c0-2.21 1.79-4 4-4s4 1.79 4 4c0 2.5-3 2.75-3 5z'></path></svg>"
         }
     ],
 
@@ -42,36 +52,44 @@
     "section-5-h1": "Planos",
     "section-5-plans": [
         {
-        "name": "Básico",
-        "badge": "Ideal para equipes pequenas",
-        "price": 100.0,
-        "period": "mês",
+        "name": "Start Digital",
+        "badge": "Quem quer começar com site + visual",
+        "price": 690,
         "features": [
-            "Modelos personalizáveis",
-            "Integrações básicas",
-            "Suporte da comunidade"
+            "Site",
+            "Indetidade visual",
+            "Links de redirecionamento"
         ]
         },
         {
-        "name": "Pro",
-        "badge": "Ideal para startups em crescimento",
-        "price": 300.0,
-        "period": "mês",
+        "name": "Loja Express",
+        "badge": "Quem quer começar a vender online",
+        "price": 990,
         "features": [
-            "Recursos avançados",
-            "Suporte prioritário",
-            "Painel de análises"
+            "Loja virtual",
+            "E-commerce personalizado",
+            "Integrações personalizadas"
         ]
         },
         {
-        "name": "Enterprise",
-        "badge": "Ideal para grandes empresas",
-        "price": 599.0,
+        "name": "Presença Online",
+        "badge": "Quem quer movimentar o Instagram",
+        "price": 350,
         "period": "mês",
         "features": [
-            "Gerente de conta dedicado",
-            "Integrações personalizadas",
-            "Soluções escaláveis"
+            "Content organization",
+            "Custom posts",
+            "Lead generation"
+        ]
+        },
+        {
+        "name": "Tudo Pronto",
+        "badge": "Solução completa",
+        "price": 1500,
+        "features": [
+            "Site",
+            "Instagram",
+            "Branding"
         ]
         }
     ],
