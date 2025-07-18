@@ -27,7 +27,7 @@ function Header(){
     const sections: hrefProps[] = t("header-navigations", { returnObjects: true }) as hrefProps[];
 
     const idNavigate = (url:string) => {
-        window.location.href = url;
+        window.location.href = `#${url}`;
     }
 
     return(
