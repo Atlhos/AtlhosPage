@@ -8,5 +8,22 @@
 }
 
 
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  font-size: 26px;
+}
+
+@media (width >= 64rem){
+  h2{
+    font-size: 32px;
+    text-align: center;
+  }
+}
+
+
 
 

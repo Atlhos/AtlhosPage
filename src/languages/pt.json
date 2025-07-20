@@ -3,7 +3,6 @@
     "header-navigations": [
         { "name": "Sobre", "href": "about" },
         { "name": "Serviços", "href": "services" },
-        { "name": "Tecnologias", "href": "technologies" },
         { "name": "Planos", "href": "plans" },
         { "name": "Portfólio", "href": "portfolio" },
         { "name": "Contatos", "href": "contacts" }
@@ -46,11 +45,8 @@
         }
     ],
 
-    "section-4-h1": "Tecnologias que dominamos",
-    "section-4-skills": ["HTML", "CSS", "JavaScript", "SASS", "Tailwind CSS", "ReactJS", "NextJS", "NodeJS", "TypeScript", "Figma", "Firebase"],
-
-    "section-5-h1": "Planos",
-    "section-5-plans": [
+    "section-4-h1": "Planos",
+    "section-4-plans": [
         {
         "name": "Start Digital",
         "badge": "Quem quer começar com site + visual",
@@ -93,10 +89,10 @@
         ]
         }
     ],
-    "section-5-button": "Escolher plano",
+    "section-4-button": "Escolher plano",
 
-    "section-6-h1": "Portfólio",
-    "section-6-projects": [
+    "section-5-h1": "Portfólio",
+    "section-5-projects": [
         {
         "name": "SalãoCondo",
         "description": "O SalãoCondo é um sistema desenvolvido para facilitar o uso e a gestão do salão de festas do condomínio. Os moradores podem reservar datas e gerenciar convidados, enquanto os administradores controlam moradores, pagamentos e têm acesso a um painel com insights e gerenciamento completo das reservas.",
@@ -114,8 +110,8 @@
         }
     ],
 
-    "section-7-h1":"Pronto para transformar suas ideias em realidade?",
-    "section-7-button":"Começar",
+    "section-6-h1":"Pronto para transformar suas ideias em realidade?",
+    "section-6-button":"Começar",
 
     "footer-span":["Política de Privacidade", "Termos de Serviço", "Contate-nos"],
     "footer-contacts":[

@@ -90,14 +90,10 @@ function Header(){
                                 </SelectContent>
                             </Select>
                         </div>
-
-
-
-                        
                     </nav>
                 </div>
             </header>
-            <div className="h-14"></div>
+
         </>
     )
 }

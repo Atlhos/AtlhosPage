@@ -46,11 +46,9 @@ export default function Home(){
 
     const services: servicesProps[] = t("section-3-cards", { returnObjects: true }) as servicesProps[];
 
-    const skills: string[] = t("section-4-skills", { returnObjects: true }) as string[];
+    const plans: plansProps[] = t("section-4-plans", { returnObjects: true }) as plansProps[];
 
-    const plans: plansProps[] = t("section-5-plans", { returnObjects: true }) as plansProps[];
-
-    const projects: projectsProps[] = t("section-6-projects", { returnObjects: true }) as projectsProps[];
+    const projects: projectsProps[] = t("section-5-projects", { returnObjects: true }) as projectsProps[];
 
     const footer: string[] = t("footer-span", { returnObjects: true }) as string[];
 
@@ -65,72 +63,67 @@ export default function Home(){
             <ScrollPercentage/>
             <Blur/>
             <Header/>
-            <main className="m-auto w-full max-w-6xl py-16 px-4 flex flex-col gap-32 overflow-hidden 
-            ">
+            
+            <main className="w-full overflow-hidden px-8 pt-24 pb-64 bg-neutral-50">
+                <div className="w-full max-w-7xl mx-auto flex flex-col gap-32">
 
-                <section  className="w-full min-h-96 rounded-md image md:min-h-[546px] relative overflow-hidden" style={{ 
-                    backgroundImage: "url('./background1.png')",
-                    backgroundPosition: "center center",
-                    backgroundSize: "cover" }}>
+                <section className="py-12">
+                    <div  className="w-full max-w-5xl mx-auto aspect-square rounded-md relative overflow-hidden" style={{ 
+                        backgroundImage: "url('./background1.png')",
+                        backgroundPosition: "center center",
+                        backgroundSize: "cover" }}>
 
-                        <div className="bg-black/50 absolute left-0 top-0 w-full h-full flex items-center">
-                            <div className=" flex flex-col gap-2 max-w-96 md:max-w-xl items-start justify-end h-full px-4 pb-8">
-                                <h1 className="text-lg text-white font-bold md:text-2xl lg:text-4xl">{t('section-1-h1')}</h1>
-                                <p className="text-neutral-200 text-md md:text-lg">{t('section-1-p')}</p>
-                            </div>
-                        </div>
-                </section>
-
-                <section id="about" className="flex flex-col gap-2">
-                    <h2 className="text-xl font-bold text-black">{t('section-2-h1')}</h2>
-                    <p>
-                        <div dangerouslySetInnerHTML={{ __html: t('section-2-p') }} />
-                    </p>
-                </section>
-
-                <section id="services" className="flex flex-col gap-2">
-                    <h2 className="text-xl font-bold text-black">{t('section-3-h1')}</h2>
-
-                    <article className="flex flex-col gap-4">
-                        <p>
-                            {t('section-3-p')}
-                        </p>
-
-                        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-4">
-                            {services.map((service, index) => (
-                                <div 
-                                    key={index}
-                                    className="bg-white rounded-xl overflow-hidden transition-all duration-300 hover:-translate-y-2  border-2"
-                                >
-                                    <div className="p-6 space-y-4">
-                                        <div className="text-2xl text-main mb-4">
-                                            <div dangerouslySetInnerHTML={{ __html: service.codeIcon }} />
-                                        </div>
-                                        <h3 className=" font-bold text-gray-800">{service.h3}</h3>
-                                        <p className="text-gray-600">{service.p}</p>
-                                    </div>
+                            <div className="bg-black/50 absolute left-0 top-0 w-full h-full flex items-center">
+                                <div className=" flex flex-col gap-2 max-w-96 md:max-w-xl items-start justify-end h-full px-4 pb-8">
+                                    <h1 className="text-lg text-white font-bold md:text-2xl lg:text-4xl">{t('section-1-h1')}</h1>
+                                    <p className="text-neutral-200 text-md md:text-lg">{t('section-1-p')}</p>
                                 </div>
-                            ))}
+                            </div>
+                    </div>
+                </section>
+                
+                <section id="about">
+                    <div className="flex flex-col gap-2 w-full max-w-5xl mx-auto text-center">
+                        <h2 className="text-xl font-bold text-black">{t('section-2-h1')}</h2>
+                        <p>
+                            <div dangerouslySetInnerHTML={{ __html: t('section-2-p') }} className="text-lg"/>
+                        </p>
+                    </div>
+                </section>
+                
+                <section id="services">
+                    <div  className="flex flex-col gap-6">
+                        
+                        <div className="flex flex-col gap-2 w-full max-w-5xl mx-auto text-center">
+                            <h2 className="text-xl font-bold text-black">{t('section-3-h1')}</h2>
+                            <p className="text-lg max-w-4xl">
+                                {t('section-3-p')}
+                            </p>
                         </div>
-                    </article>
+
+                        <article className="flex flex-col gap-4">
+                            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-4">
+                                {services.map((service, index) => (
+                                    <div 
+                                        key={index}
+                                        className="bg-white rounded-xl overflow-hidden transition-all duration-300 hover:-translate-y-2 border-2"
+                                    >
+                                        <div className="p-8 flex flex-col gap-6">
+                                            <div dangerouslySetInnerHTML={{ __html: service.codeIcon }}
+                                            className="text-2xl text-main bg-mainLight/40 w-fit p-4 rounded-full" />
+
+                                            <h3 className="font-bold text-gray-800 text-xl">{service.h3}</h3>
+                                            <p className="text-gray-600">{service.p}</p>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </article>
+                    </div>
                 </section>
 
-                <section  id="technologies"  className="flex flex-col gap-8">
+                <section id="plans"  className="flex flex-col gap-4">
                     <h2 className="text-xl font-bold text-black">{t('section-4-h1')}</h2>
-                        <div className="flex flex-wrap justify-center gap-4">
-                            {skills.map((skill, index) => (
-                                <span 
-                                    key={index}
-                                    className="bg-main/10 text-main px-6 py-2 rounded-full font-medium hover:bg-main/20 transition-colors duration-200"
-                                >
-                                    {skill}
-                                </span>
-                            ))}
-                        </div>
-                </section>
-
-                <section id="plans"  className="flex flex-col gap-2">
-                    <h2 className="text-xl font-bold text-black">{t('section-5-h1')}</h2>
                     <Carousel className="w-full mt-2"
                     plugins={[plugin.current]}
                     onMouseEnter={plugin.current.stop}
@@ -158,7 +151,7 @@ export default function Home(){
                                     <ButtonTwo className="w-full">
                                         <a className="w-full h-full" 
                                         href={`https://api.whatsapp.com/send?phone=5511984339692&text=Olá, gostaria de saber mais sobre o plano ${plan.name}`}>
-                                            {t("section-5-button")}
+                                            {t("section-4-button")}
                                         </a>
                                     </ButtonTwo>
 
@@ -183,34 +176,25 @@ export default function Home(){
                     </Carousel>
                 </section>
 
-                <section id="portfolio"  className="flex flex-col gap-2">
-                    <h2 className="text-xl font-bold text-black">{t('section-6-h1')}</h2>
+                <section id="portfolio" className="flex flex-col gap-8">
+                    <h2 className="text-xl font-bold text-black">{t('section-5-h1')}</h2>
 
-                        <div className="flex flex-col gap-8 p-2">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                             {projects && projects.length > 0 && projects.map((skill, index: number) => (
-                                <article key={`${skill.name}-${index}`} className="flex flex-col gap-4">
-                                    
-                                    <p className={`text-xl font-semibold text-main md:hidden ${index % 2 === 0 ? "text-start" : "text-end"}`}>{skill.name}</p>
+                                <article key={`${skill.name}-${index}`} className=" flex flex-col rounded-xl overflow-hidden border-4 hover:translate-y-4 duration-200 transition-all">
 
-                                    <div className={`bg-neutral-50 md:bg-transparent md:shadow-none p-8 flex flex-col gap-8 justify-between items-stretch shadow-md md:flex-row md:relative
-                                        ${index % 2 === 0 ? "justify-end" : "justify-start"}`}>
-                                        
-                                        <div className={`md:absolute md:w-1/2 ${index % 2 === 0 ? "left-0 text-start" : "right-0 text-end"} md:top-1/2 md:-translate-y-1/2 md:flex flex-col gap-4`}>
-                                            <p className="hidden md:block text-main text-xl font-bold">{skill.name}</p>
-                                            <div className={` md:bg-main md:text-white md:px-8 md:py-4  md:text-sm lg:text-md lg:py-8`}>
-                                                <p>{skill.description}</p>
+                                    <div className="bg-neutral-200 px-4 pt-24">
+                                        <div className="flex flex-col items-center">
+                                            <div className="aspect-video bg-white w-full border-8 border-neutral-800 rounded-sm shadow-md shadow-black/50 outline-1 outline-neutral-200">
+                                                <img src={skill.image} alt={skill.name} className="w-full h-full object-cover" />
                                             </div>
                                         </div>
-
-                                        <div className={`w-full aspect-video bg-mainLight/40 rounded-xs flex p-8 items-center md:w-2/3 group
-                                            ${index % 2 === 0 ? "justify-end" : "justify-start"}`}>
-                                            <div className="w-2/3 group-hover:w-full duration-500 aspect-video border-8 border-black rounded-md overflow-hidden shadow-xl">
-                                                <img src={skill.image} alt={skill.name} className="w-full h-full object-cover"/>
-                                            </div>
-                                        </div>
-
                                     </div>
 
+                                    <div className="bg-neutral-100 p-4 flex flex-col gap-2 h-full z-50">
+                                        <h3 className="font-bold text-main">{skill.name}</h3>
+                                        <p className="text-xs leading-5 lg:text-sm">{skill.description}</p>
+                                    </div>
                                 </article>
                             ))}
                         </div>
@@ -218,18 +202,19 @@ export default function Home(){
                 </section>
 
                 <section className="flex flex-col gap-8 items-center">
-                    <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-black text-center max-w-3xl">{t('section-7-h1')}</h2>
-                    <ButtonOne>
+                    <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-black text-center max-w-3xl">{t('section-6-h1')}</h2>
+                    <ButtonOne className="scale-125">
                         <a className="w-full h-full" 
                         href="https://api.whatsapp.com/send?phone=5511984339692&text=" target="_blank">
-                            {t("section-7-button")}
+                            {t("section-6-button")}
                         </a>
                         
                     </ButtonOne>
                 </section>
+                </div>
             </main>
 
-            <footer className="bg-mainLight/40 w-full text-neutral-500 mt-32" id="contacts">
+            <footer className="bg-mainLight/40 w-full text-neutral-500" id="contacts">
 
                 <div className="w-full m-auto flex items-center justify-between max-w-7xl py-24 px-8 flex-col gap-12">
                     
