@@ -19,7 +19,7 @@ function Header(){
 
     const { t,  ready } = useTranslation("home");
 
-    if (!ready) return Loading();
+    if (!ready) return <Loading/>;
 
     const languages = t('header-languages', { returnObjects: true }) as string[];
 
